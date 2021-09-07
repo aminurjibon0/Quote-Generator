@@ -1,2 +1,2 @@
 # Quote-Generator
-JSPortfolio
+JSPortfolio : https://aminurjibon0.github.io/Quote-Generator/

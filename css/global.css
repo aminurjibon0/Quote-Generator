@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* 
+1. GRID STYLE
+2. ALIGNMENT
+3. FONT-STYLE
+
+
+
+*/
+
+/* GRID STYLE START */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: auto;
+}
+.col-d {
+    min-height: 10px;
+    border: 1px solid red;
+}
+.col, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.no-gutters  {
+    padding-left: 0;
+    padding-right: 0;
+}
+.col, .col-md-12 {
+    flex: 100%;
+    max-width: 100%;
+}
+.col-md-11 {
+    flex: 91.65%;
+    max-width: 91.65%;
+}
+.col-md-1 {
+    flex: 8.34%;
+    max-width: 8.34%;
+}
+.col-md-10 {
+    flex: 83.32%
+    max-width: 83.32%
+}
+.col-md-2 {
+    flex: 16.67%;
+    max-width: 16.67%;
+}
+.col-md-9 {
+    flex: 74.99%;
+    max-width: 74.99%;
+}
+.col-md-3 {
+    flex: 24.99%;
+    max-width: 24.99%;
+}
+.col-md-8 {
+    flex: 66.66%;
+    max-width: 66.66%;
+}
+.col-md-4 {
+    flex: 33.32%;
+    max-width: 33.32%;
+}
+.col-md-7 {
+    flex: 58.32%;
+    max-width: 58.32%;
+}
+.col-md-5 {
+    flex: 41.65%;
+    max-width: 41.65%;
+}
+.col-md-6 {
+    flex: 49.99%;
+    max-width: 49.99%;
+}
+/* GRID STYLE END */
+/* ALLIGNMENT START */
+.align-items-center {
+    align-items: center;
+}
+.align-items-start {
+    align-items: flex-start;
+}
+.align-items-end {
+    align-items: flex-end;
+}
+.align-content-center {
+    align-content: center;
+}
+.align-content-start {
+    align-content: flex-start;
+}
+.align-content-end {
+    align-content: flex-end;
+}
+.align-self-center {
+    align-self: center;
+}
+.align-self-start {
+    align-self: start;
+}
+.align-self-end {
+    align-self: flex-end;
+}
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+
+/* ALLIGNMENT END */
+/* 3. FONT-STYLE START */
+.text-uppercase {
+    text-transform: uppercase;
+}
+.text-underline {
+    text-decoration: underline;
+}
+.text-none {
+    text-decoration: none;
+}
+/* 3. FONT-STYLE END */
